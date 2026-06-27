@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body,#root{
+  width: 100%;
+  height: 100%;
+  /*background-color: rgb(203, 234, 255);  */
+   background-image: url("./assets/3416207_59271.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body{
+  margin:0;
+ 
+}
+
+.main-container{
+  display:flex;
+  height:100vh;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 80px;
+}
+
+/* Left content */
+.content{
+  width:40%;
+  color: aliceblue;
+  
+}
+
+.content h1{
+  font-size:48px;
+  
+}
+
+.content p{
+  font-size:18px;
+  margin-top:10px;
+}
+
+.content button{
+  margin-top:20px;
+  padding:10px 20px;
+  font-size:16px;
+  background:#99f1ff;
+  border: 0;
+  border-radius: 2px;
+  cursor:pointer;
+}
+button:hover{
+  background: #8aefff;
+}
+
+/* Right 3D canvas */
+.canvas-container{
+  width:600px;
+  height:400px;
+}
+

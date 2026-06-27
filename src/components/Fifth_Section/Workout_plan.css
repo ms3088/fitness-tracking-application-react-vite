@@ -1,0 +1,54 @@
+.workout-section{
+  padding:100px 80px;
+  background:rgb(226, 255, 252);
+  /*width: 770px;*/
+ /* margin-bottom: 100px; */
+  margin: 10px;
+  box-shadow: 5px, 5px, 15px rgba(0, 0, 0, 3);
+  border-radius: 5px;
+}
+
+.workout-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+}
+
+.workout-text{
+    color: rgb(10, 50, 56);
+    margin-bottom: 5%;
+  width:50%;
+}
+
+.workout-text h2{
+  font-size:40px;
+}
+
+.workout-text p{
+  margin-top:15px;
+  font-size:18px;
+}
+/*
+.criteria-text button{
+  margin-top:20px;
+  padding:10px 20px;
+  border:none;
+  background:black;
+  color:white;
+  cursor:pointer;
+}*/
+
+.workout-image img{
+  position: relative;
+  width:500px;
+  border-radius: 5px;
+  height: 400px;
+  /*box-shadow: inset; */
+  
+  
+  
+}
+.features-list li{
+  margin-left: 10px;
+}

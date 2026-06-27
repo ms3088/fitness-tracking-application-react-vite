@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;      /* Fixes the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(10, 50, 56); /* slightly transparent */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;        /* Makes sure navbar is on top of everything */
+}
+
+.navbar-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar-links button{
+  
+  margin-left: 10px;
+  padding: 7px;
+  cursor: pointer;
+  background: #99f1ff;
+  border-radius: 2px;
+  border: 0;
+}
+button:hover{
+  background: #8aefff;
+}
+.navbar-links-login{
+  background: #000;
+}
+
+.navbar-links a:hover {
+  color: #f39c12;
+}

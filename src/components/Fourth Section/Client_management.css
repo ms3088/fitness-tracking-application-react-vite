@@ -1,0 +1,35 @@
+.client-section{
+   padding:100px 80px;
+  margin: 10px;
+  box-shadow: 5px, 5px, 15px rgba(0, 0, 0, 3);
+  border-radius: 5px;
+    
+}
+.client-management{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 43%;
+}
+.client-container{
+    color: rgb(10, 50, 56);
+    margin-bottom: 5%;
+  width:50%;
+}
+
+.client-container h2{
+  font-size:40px;
+}
+
+.client-container p{
+  margin-top:15px;
+  font-size:18px;
+}
+.client-function{
+    margin-left: 10px;
+}.client-image img{
+    height: 160%;
+    width: 160%;
+    margin-bottom: 10%;
+    border-radius: 1.5%;
+}
