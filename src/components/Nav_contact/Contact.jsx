@@ -6,7 +6,7 @@ import Rights from '../Rights/Rights'
 const Contact = () => {
   return (
     <div className="blog-container">
-      <h1>Contact Us</h1>
+      <h1>Contact us</h1>
 
 
       <section className="image-section">
